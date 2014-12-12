@@ -7,7 +7,6 @@
 
 #include <math.h>
 #include <string.h>
-#include <stdlib.h>
 #include <vector>
 #include <algorithm>
 #include "Canvas.h"
@@ -606,7 +605,7 @@ NAN_METHOD(Context2d::DrawImage) {
   if (args.Length() < 3)
     return NanThrowTypeError("invalid arguments");
 
-  float sx = 0
+  double sx = 0
     , sy = 0
     , sw = 0
     , sh = 0
