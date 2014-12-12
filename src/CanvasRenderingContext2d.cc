@@ -7,6 +7,7 @@
 
 #include <math.h>
 #include <string.h>
+#include <stdlib.h>
 #include <vector>
 #include <algorithm>
 #include "Canvas.h"
